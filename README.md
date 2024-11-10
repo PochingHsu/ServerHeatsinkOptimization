@@ -8,4 +8,4 @@ Fin area $A_{fin}=2H_{fin}\cdot L$ <br/>
 Fin effieiceny $\eta_{fin}=\frac{tanh(m\cdot H_{fin})}{m\cdot H_{fin}}$ where $m=\sqrt{\frac{2h}{k_{fin}\cdot t_{fin}}}$ <br/>
 Heat transfer coefficient $h=Nu_{b}\frac{k_{air}}{b}$ <br/>
 Fin spacing $b=\frac{W-N\cdot t_{fin}}{N-1}$
-
+Air velocity between fins $V = \frac{\forall _{air}}{(N_{fin}-1)\cdot b\cdot H_{fin})}$
