@@ -6,5 +6,6 @@ where <br/>
 Heatsink base area $A_{base}=(N_{fin}-1)bL$ <br/>
 Fin area $A_{fin}=2H_{fin}L$ <br/>
 Fin effieiceny $\eta_{fin}=\frac{tanh(mH_{fin})}{mH_{fin}}$ <br/>
-$m=\sqrt{\frac{2h}{k_{fin}t_{fin}}}$, $h=Nu_{b}\frac{k_{air}}{b}$
+$m=\sqrt{\frac{2h}{k_{fin}t_{fin}}}$, $h=Nu_{b}\frac{k_{air}}{b}$ <br/>
+$b=\frac{W-N\cdot t_{fin}}{N-1}$
 
