@@ -34,6 +34,6 @@ V = \frac{\forall_{air}}{(N_{fin}-1)\cdot b \cdot H_{fin}}
 ```math
 \Delta P=(K_{c}+4\cdot f_{app}\cdot\frac{L}{D_{h}}+K_{e})\frac{\rho V^{2}}{2}
 ```
-where $K_{c}=0.42(1-\sigma^{2})$ and K_{e}=(1-\sigma^{2})^{2} are the pressure loss due to sudden contraction and expansion, respectively <br/>
+where $K_{c}=0.42(1-\sigma^{2})$ and $K_{e}=(1-\sigma^{2})^{2}$ are the pressure loss due to sudden contraction and expansion, respectively <br/>
 **Reference**
 [^1]: Culham, J.R., and Muzychka, Y.S. “Optimization of Plate Fin Heat Sinks Using Entropy Generation Minimization,” IEEE Trans. Components and Packaging Technologies, Vol. 24, No. 2, pp. 159-165, 2001.
