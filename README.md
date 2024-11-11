@@ -55,13 +55,10 @@ Objectives:
 2. Minimizing pressure drop of heatsinks: $\Delta P_{HS1} + \Delta P_{HS2}$ 
 Design Variables:
 <br/>
-- CPU1 heatsink:
- - fin spacing
- - fin thickness  
-- CPU2 heatsink
- - fin spacing
-- Air flow rate ($\forall_{air}$)
-- Fin height of two heatsinks ($H_{fin}$)
+1. CPU1 heatsink: fin spacing, fin thickness  
+2. CPU2 heatsink: fin spacing, fin thickness
+3. Air flow rate ($\forall_{air}$)
+4. Fin height of two heatsinks ($H_{fin}$)
 
 <br/>
 <br/>
