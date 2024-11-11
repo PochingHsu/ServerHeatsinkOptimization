@@ -13,3 +13,7 @@ Dimensionless numbers: <br/>
 $Pr=\frac{\mu\cdot Cp}{k}$ <br/>
 $Re_{b}^*=Re_{b}\cdot \frac{b}{L}=\frac{\rho\cdot V\cdot b}{\mu}\cdot \frac{b}{L}$ <br/>
 $Nu_{b}=$
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
