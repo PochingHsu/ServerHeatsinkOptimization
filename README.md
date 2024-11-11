@@ -70,7 +70,7 @@ T_{CPU1} + T_{CPU2}
    - Fin thickness $t_{fin, 2}$
 3. Air flow rate $\forall_{air}$
 4. Fin height for both heatsinks $H_{fin}$
-<br/>
+
 **Constraints:**
 
 1. CPU1 junction temperature $T_{jc,cpu1}\le 70^\circ C$
