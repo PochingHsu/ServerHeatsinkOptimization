@@ -53,8 +53,8 @@ Objectives:
 <br/>
 1. Minimizing CPU temperatures: $T_{CPU1} + T_{CPU2}$
 2. Minimizing pressure drop of heatsinks: $\Delta P_{HS1} + \Delta P_{HS2}$ 
-<br/>
 Design Variables:
+<br/>
 1.CPU1 heatsink:
   a. fin spacing
   b. fin thickness  
