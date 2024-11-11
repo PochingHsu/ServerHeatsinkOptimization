@@ -74,6 +74,10 @@ T_{CPU1} + T_{CPU2}
 **Constraints**
 
 1. **CPU1 junction temperature $T_{jc,cpu1}\le 70^\circ C$**
+2. **CPU2 junction temperature $T_{jc,cpu2}\le 70^\circ C$**
+3. **GPU card inlet temperature $T_{a3}\le 50^\circ C$**
+4. **GPU card airflow rate $\forall_{air} \ge \forall_{min}=f(T_{a3})$**
+5. 
 
 **Reference**
 [^1]: Culham, J.R., and Muzychka, Y.S. “Optimization of Plate Fin Heat Sinks Using Entropy Generation Minimization,” IEEE Trans. Components and Packaging Technologies, Vol. 24, No. 2, pp. 159-165, 2001.
