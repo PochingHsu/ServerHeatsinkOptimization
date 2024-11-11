@@ -52,7 +52,6 @@ where $Re_{D_{h}}=\frac{\rho VD_{h}}{\mu}$, $L^*=\frac{L}{D_{h}Re_{D_{h}}}$
 Objectives:
 <br/>
 1. Minimizing CPU temperatures: Tcpu1+Tcpu2
-<br/>
 2. Minimizing pressure drop of heatsinks: dP_hs1+dP_hs2
 <br/>
 <br/>
