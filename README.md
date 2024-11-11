@@ -1,5 +1,5 @@
-This project is working on optimizing the blade server CPU heatsinks <br/>
-
+This project is working on optimizing the blade server CPU heatsinks <br/><br/>
+We are using the heat sink model from Culham, J.R., and Muzychka footnote[^1]
 **Thermal resistance of heatsink:** <br/>
 ```math
 R_{hs}=\frac{1}{h\cdot (A_{base}+N_{fin}\cdot \eta_{fin}\cdot A_{fin})}
@@ -27,3 +27,6 @@ Re_{b}^*=Re_{b}\cdot \frac{b}{L}=\frac{\rho\cdot V\cdot b}{\mu}\cdot \frac{b}{L}
 ```math
 Nu_{b}=\left[ (\frac{Re_{b}^*\cdot Pr}{2})^{-3}+\left(0.664\sqrt{Re_{b}^*}\cdot Pr^{1/3}\cdot \sqrt{1+\frac{3.65}{\sqrt{Re_{b}^*}}}  \right)^{-3} \right]^{-1/3}
 ```
+**Reference**
+[^1]: Culham, J.R., and Muzychka, Y.S. “Optimization of Plate Fin Heat Sinks Using Entropy Generation Minimization,” IEEE Trans. Components and Packaging Technologies, Vol. 24, No. 2, pp. 159-165, 2001.
+![image](https://github.com/user-attachments/assets/32b2f440-7589-4f3a-b5a6-afefdf0c1a36)
