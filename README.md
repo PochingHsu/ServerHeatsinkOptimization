@@ -9,11 +9,12 @@ Fin effieiceny $\eta_{fin}=\frac{tanh(m\cdot H_{fin})}{m\cdot H_{fin}}$ where $m
 Heat transfer coefficient $h=Nu_{b}\frac{k_{air}}{b}$ <br/>
 Fin spacing $b=\frac{W-N\cdot t_{fin}}{N-1}$
 Air velocity between fins $V = \frac{\forall _{air}}{(N_{fin}-1)\cdot b\cdot H_{fin})}$ <br/> <br/>
+| Command | Description |
+| --- | --- |
+| Air velocity between fins | $V = \frac{\forall _{air}}{(N_{fin}-1)\cdot b\cdot H_{fin})}$ |
+| git diff | Show file differences that haven't been staged |
 Dimensionless numbers: <br/>
 $Pr=\frac{\mu\cdot Cp}{k}$ <br/>
 $Re_{b}^*=Re_{b}\cdot \frac{b}{L}=\frac{\rho\cdot V\cdot b}{\mu}\cdot \frac{b}{L}$ <br/>
 $Nu_{b}=$
-| Command | Description |
-| --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
+
