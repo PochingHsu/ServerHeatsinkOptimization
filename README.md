@@ -5,11 +5,9 @@ The thermal resustance of heatsink is calculated as: <br/>
 R_{hs}=\frac{1}{h\cdot (A_{base}+N_{fin}\cdot \eta_{fin}\cdot A_{fin})}
 ```
 where heatsink base area 
-$A_{base}=(N_{fin}-1)\cdot b\cdot L$
-Fin area: <br/>
-```math
-A_{fin}=2H_{fin}\cdot L
-```
+$A_{base}=(N_{fin}-1)\cdot b\cdot L$ , 
+fin area 
+$A_{fin}=2H_{fin}\cdot L$
 Fin effieiceny: <br/>
 ```math
 \eta_{fin}=\frac{tanh(m\cdot H_{fin})}{m\cdot H_{fin}}
