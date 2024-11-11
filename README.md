@@ -16,8 +16,7 @@ $h=Nu_{b}\frac{k_{air}}{b}$,
 fin spacing 
 $b=\frac{W-N\cdot t_{fin}}{N-1}$, 
 air velocity between fins 
-$V = \frac{\forall _{air}}{(N_{fin}-1)\cdot b\cdot H_{fin}}$ <br/>
-
+V = \frac{\forall_{air}}{(N_{fin}-1)\cdot b \cdot H_{fin}}
 Dimensionless numbers: <br/>
 $Pr=\frac{\mu\cdot Cp}{k}$ <br/>
 $Re_{b}^*=Re_{b}\cdot \frac{b}{L}=\frac{\rho\cdot V\cdot b}{\mu}\cdot \frac{b}{L}$ <br/>
