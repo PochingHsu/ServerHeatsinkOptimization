@@ -49,6 +49,7 @@ f=\frac{24-32.527(\frac{b}{H_{fin}})+46.721(\frac{b}{H_{fin}})^2-40.829(\frac{b}
 where $Re_{D_{h}}=\frac{\rho VD_{h}}{\mu}$, $L^*=\frac{L}{D_{h}Re_{D_{h}}}$
 <br/>
 # Optimization
+The
 <br/>
 <br/>
 **Reference**
