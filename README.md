@@ -39,8 +39,11 @@ Apparent friction factor:
 ```math
 f_{app}=\frac{\left[ \left(  \frac{3.44}{\sqrt{L^*}}\right)^2+(f\cdot Re_{D_{h}})^2 \right]^{1/2}}{Re_{D_{h}}}
 ```
-where $Re_{D_{h}}=\frac{\rho VD_{h}}{\mu}$, $L^*=\frac{L}{D_{h}Re_{D_{h}}}$, $f=\frac{24-32.527(\frac{b}{H_{fin}})+46.721(\frac{b}{H_{fin}})^2-40.829(\frac{b}{H_{fin}})^3+22.954(\frac{b}{H_{fin}})^4-6.089(\frac{b}{H_{fin}})^5}{Re_{D_{h}}}$
-
+Fully developed flow friction factor:
+```math
+f=\frac{24-32.527(\frac{b}{H_{fin}})+46.721(\frac{b}{H_{fin}})^2-40.829(\frac{b}{H_{fin}})^3+22.954(\frac{b}{H_{fin}})^4-6.089(\frac{b}{H_{fin}})^5}{Re_{D_{h}}}
+```
+where $Re_{D_{h}}=\frac{\rho VD_{h}}{\mu}$, $L^*=\frac{L}{D_{h}Re_{D_{h}}}$
 <br/>
 **Reference**
 [^1]: Culham, J.R., and Muzychka, Y.S. “Optimization of Plate Fin Heat Sinks Using Entropy Generation Minimization,” IEEE Trans. Components and Packaging Technologies, Vol. 24, No. 2, pp. 159-165, 2001.
