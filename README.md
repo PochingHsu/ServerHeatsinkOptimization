@@ -70,6 +70,8 @@ T_{CPU1} + T_{CPU2}
    - Fin thickness $t_{fin, 2}$
 3. **Air flow rate** $\forall_{air}$
 4. **Fin height for both heatsinks** $H_{fin}$
+**Constraints**
+1. **CPU1 junction temperature $T_{jc,cpu1}\le 70^\circ C$**
 
 **Reference**
 [^1]: Culham, J.R., and Muzychka, Y.S. “Optimization of Plate Fin Heat Sinks Using Entropy Generation Minimization,” IEEE Trans. Components and Packaging Technologies, Vol. 24, No. 2, pp. 159-165, 2001.
