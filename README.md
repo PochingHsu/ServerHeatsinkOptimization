@@ -10,11 +10,13 @@ fin area
 $A_{fin}=2H_{fin}\cdot L$, 
 fin effieiceny 
 $\eta_{fin}=\frac{tanh(m\cdot H_{fin})}{m\cdot H_{fin}}$, 
-$m=\sqrt{\frac{2h}{k_{fin}\cdot t_{fin}}}$ <br/>
-heat transfer coefficient $h=Nu_{b}\frac{k_{air}}{b}$ <br/>
-Fin spacing $b=\frac{W-N\cdot t_{fin}}{N-1}$
-
-Air velocity between fins $V = \frac{\forall _{air}}{(N_{fin}-1)\cdot b\cdot H_{fin}}$ <br/> <br/>
+$m=\sqrt{\frac{2h}{k_{fin}\cdot t_{fin}}}$, 
+heat transfer coefficient 
+$h=Nu_{b}\frac{k_{air}}{b}$, 
+fin spacing 
+$b=\frac{W-N\cdot t_{fin}}{N-1}$, 
+air velocity between fins 
+$V = \frac{\forall _{air}}{(N_{fin}-1)\cdot b\cdot H_{fin}}$ <br/>
 
 Dimensionless numbers: <br/>
 $Pr=\frac{\mu\cdot Cp}{k}$ <br/>
