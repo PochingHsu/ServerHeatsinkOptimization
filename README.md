@@ -58,9 +58,8 @@ Design Variables:
 <br/>
 1. CPU1 heatsink: fin spacing, fin thickness  
 2. CPU2 heatsink: fin spacing, fin thickness
-3. Air flow rate ($\forall_{air}$)
-4. Fin height of two heatsinks ($H_{fin}$)
-
+3. Air flow rate $\forall_{air}$
+4. Fin height of two heatsinks $H_{fin}$
 <br/>
 <br/>
 **Reference**
