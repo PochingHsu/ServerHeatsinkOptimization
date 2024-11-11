@@ -9,7 +9,7 @@ Fin effieiceny $\eta_{fin}=\frac{tanh(m\cdot H_{fin})}{m\cdot H_{fin}}$ where $m
 Heat transfer coefficient $h=Nu_{b}\frac{k_{air}}{b}$ <br/>
 Fin spacing $b=\frac{W-N\cdot t_{fin}}{N-1}$
 
-Air velocity between fins V = \frac{\forall _{air}}{(N_{fin}-1)\cdot b\cdot H_{fin}} <br/> <br/>
+Air velocity between fins $V = \frac{\forall _{air}}{(N_{fin}-1)\cdot b\cdot H_{fin}}$ <br/> <br/>
 
 Dimensionless numbers: <br/>
 $Pr=\frac{\mu\cdot Cp}{k}$ <br/>
