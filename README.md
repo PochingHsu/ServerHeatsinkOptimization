@@ -31,6 +31,8 @@ Re_{b}^*=Re_{b}\cdot \frac{b}{L}=\frac{\rho\cdot V\cdot b}{\mu}\cdot \frac{b}{L}
 V = \frac{\forall_{air}}{(N_{fin}-1)\cdot b \cdot H_{fin}}
 ```
 **Pressure drop of heatsink:** <br/>
-
+```math
+\Delta P=(K_{c}+4\cdot f_{app}\cdot\frac{L}{D_{h}}+K_{e})\frac{\rho V^{2}}{2}
+```
 **Reference**
 [^1]: Culham, J.R., and Muzychka, Y.S. “Optimization of Plate Fin Heat Sinks Using Entropy Generation Minimization,” IEEE Trans. Components and Packaging Technologies, Vol. 24, No. 2, pp. 159-165, 2001.
