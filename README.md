@@ -17,7 +17,7 @@ fin spacing
 $b=\frac{W-N\cdot t_{fin}}{N-1}$, 
 air velocity between fins 
 $V = \frac{\forall_{air}}{(N_{fin}-1)\cdot b \cdot H_{fin}}$ <br/><br/>
-**Nusselt number**
+**Nusselt number:**
 ```math
 Nu_{b}=\left[ (\frac{Re_{b}^*\cdot Pr}{2})^{-3}+\left(0.664\sqrt{Re_{b}^*}\cdot Pr^{1/3}\cdot \sqrt{1+\frac{3.65}{\sqrt{Re_{b}^*}}}  \right)^{-3} \right]^{-1/3}
 ```
