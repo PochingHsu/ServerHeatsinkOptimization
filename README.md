@@ -1,6 +1,7 @@
 This project is working on optimizing the blade server CPU heatsinks
 
 The thermal resustance of heatsink is calculated as: <br/>
+**The Cauchy-Schwarz Inequality**
 $$R_{hs}=\frac{1}{h\cdot (A_{base}+N_{fin}\cdot \eta_{fin}\cdot A_{fin})}$$ <br/>
 where <br/>
 Heatsink base area $A_{base}=(N_{fin}-1)\cdot b\cdot L$ <br/>
