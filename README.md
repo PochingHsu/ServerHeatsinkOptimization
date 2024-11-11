@@ -9,11 +9,6 @@ Fin effieiceny $\eta_{fin}=\frac{tanh(m\cdot H_{fin})}{m\cdot H_{fin}}$ where $m
 Heat transfer coefficient $h=Nu_{b}\frac{k_{air}}{b}$ <br/>
 Fin spacing $b=\frac{W-N\cdot t_{fin}}{N-1}$
 Air velocity between fins $V = \frac{\forall _{air}}{(N_{fin}-1)\cdot b\cdot H_{fin})}$ <br/> <br/>
-| Variable      | Equation                    | Description                   |
-|---------------|-----------------------------|--------------------------------|
-| Velocity \(v\)   | \( v = \frac{d}{t} \)       | Velocity is distance over time |
-| Acceleration \(a\) | \( a = \frac{v_f - v_i}{t} \) | Change in velocity over time   |
-| Force \(F\)      | \( F = m \cdot a \)          | Force is mass times acceleration |
 Dimensionless numbers: <br/>
 $Pr=\frac{\mu\cdot Cp}{k}$ <br/>
 $Re_{b}^*=Re_{b}\cdot \frac{b}{L}=\frac{\rho\cdot V\cdot b}{\mu}\cdot \frac{b}{L}$ <br/>
