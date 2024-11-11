@@ -14,7 +14,9 @@ A_{fin}=2H_{fin}\cdot L
 ```
 Fin effieiceny: <br/>
 ```math
-\eta_{fin}=\frac{tanh(m\cdot H_{fin})}{m\cdot H_{fin}} <br/>
+\eta_{fin}=\frac{tanh(m\cdot H_{fin})}{m\cdot H_{fin}}
+```
+```math
 m=\sqrt{\frac{2h}{k_{fin}\cdot t_{fin}}}
 ```
 Heat transfer coefficient $h=Nu_{b}\frac{k_{air}}{b}$ <br/>
