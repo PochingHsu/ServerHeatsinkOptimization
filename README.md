@@ -4,12 +4,19 @@ The thermal resustance of heatsink is calculated as: <br/>
 ```math
 R_{hs}=\frac{1}{h\cdot (A_{base}+N_{fin}\cdot \eta_{fin}\cdot A_{fin})}
 ```
-where heatsink base area: <br/>
+Heatsink base area: <br/>
 ```math
 A_{base}=(N_{fin}-1)\cdot b\cdot L
 ```
-fin area $A_{fin}=2H_{fin}\cdot L$ <br/>
-Fin effieiceny $\eta_{fin}=\frac{tanh(m\cdot H_{fin})}{m\cdot H_{fin}}$ where $m=\sqrt{\frac{2h}{k_{fin}\cdot t_{fin}}}$ <br/>
+Fin area: <br/>
+```math
+A_{fin}=2H_{fin}\cdot L
+```
+Fin effieiceny: <br/>
+```math
+\eta_{fin}=\frac{tanh(m\cdot H_{fin})}{m\cdot H_{fin}}
+m=\sqrt{\frac{2h}{k_{fin}\cdot t_{fin}}}
+```
 Heat transfer coefficient $h=Nu_{b}\frac{k_{air}}{b}$ <br/>
 Fin spacing $b=\frac{W-N\cdot t_{fin}}{N-1}$
 
