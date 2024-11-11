@@ -1,6 +1,6 @@
 This project is working on optimizing the blade server CPU heatsinks <br/>
 
-The thermal resustance of heatsink is calculated as: <br/>
+**Thermal resustance of heatsink:** <br/>
 ```math
 R_{hs}=\frac{1}{h\cdot (A_{base}+N_{fin}\cdot \eta_{fin}\cdot A_{fin})}
 ```
