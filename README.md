@@ -65,7 +65,6 @@ where $Re_{D_{h}}=\frac{\rho VD_{h}}{\mu}$, $L^*=\frac{L}{D_{h}Re_{D_{h}}}$
    - Fin thickness $t_{fin, 2}$
 3. **Air flow rate** $\forall_{air}$
 4. **Fin height for both heatsinks** $H_{fin}$
-<br/>
-<br/>
+
 **Reference**
 [^1]: Culham, J.R., and Muzychka, Y.S. “Optimization of Plate Fin Heat Sinks Using Entropy Generation Minimization,” IEEE Trans. Components and Packaging Technologies, Vol. 24, No. 2, pp. 159-165, 2001.
