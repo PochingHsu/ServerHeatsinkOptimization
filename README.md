@@ -28,7 +28,7 @@ Pr=\frac{\mu\cdot Cp}{k}
 Re_{b}^*=Re_{b}\cdot \frac{b}{L}=\frac{\rho\cdot V\cdot b}{\mu}\cdot \frac{b}{L}
 ```
 ```math
-Air velocity between fins V = \frac{\forall_{air}}{(N_{fin}-1)\cdot b \cdot H_{fin}} 
+V = \frac{\forall_{air}}{(N_{fin}-1)\cdot b \cdot H_{fin}}
 ```
 **Reference**
 [^1]: Culham, J.R., and Muzychka, Y.S. “Optimization of Plate Fin Heat Sinks Using Entropy Generation Minimization,” IEEE Trans. Components and Packaging Technologies, Vol. 24, No. 2, pp. 159-165, 2001.
