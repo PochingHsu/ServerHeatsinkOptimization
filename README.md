@@ -53,6 +53,20 @@ Objectives:
 <br/>
 1. Minimizing CPU temperatures: Tcpu1+Tcpu2
 2. Minimizing pressure drop of heatsinks: dP_hs1+dP_hs2
+Design Variables:
+1.
+2.
+3.
+4. Air flow rate ($\forall_{air}$)
+5. Fin height of two heatsinks ($H_{fin}$)
+Variables
+CPU1 
+Fin spacing b1
+Fin thickness tf,1
+CPU2
+Fin spacing b2
+Fin thickness tf,2
+
 <br/>
 <br/>
 **Reference**
