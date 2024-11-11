@@ -62,26 +62,26 @@ T_{CPU1} + T_{CPU2}
 ```
 **Design Variables:**
 
-1. **CPU1 heatsink:**
+1. CPU1 heatsink:
    - Fin spacing $b_{1}$
    - Fin thickness $t_{fin, 1}$
-2. **CPU2 heatsink:**
+2. CPU2 heatsink:
    - Fin spacing $b_{2}$
    - Fin thickness $t_{fin, 2}$
-3. **Air flow rate** $\forall_{air}$
-4. **Fin height for both heatsinks** $H_{fin}$
+3. Air flow rate $\forall_{air}$
+4. Fin height for both heatsinks $H_{fin}$
 <br/>
-**Constraints**
+**Constraints:**
 
-1. **CPU1 junction temperature $T_{jc,cpu1}\le 70^\circ C$**
-2. **CPU2 junction temperature $T_{jc,cpu2}\le 70^\circ C$**
-3. **CPU2 heatsink inlet $T_{a2}\le T_{a3}-\epsilon_{T}$**
-4. **CPU1 heatsink inlet $T_{a1}\le T_{jc,cpu1}$**
-5. **CPU2 heatsink inlet $T_{a2}\le T_{jc,cpu2}$**
-6. **GPU card airflow rate $\forall_{air} \ge \forall_{min}=f_{GPU}(T_{a3})$**
-7. **GPU card inlet temperature $T_{a3}\le 50^\circ C$**
-8. **Fin height $H_{fin} \le 44.45-H_{b}-H_{cpu}-\epsilon$**
-9. **Operation point on fan curve $P=f_{fan}(\forall_{a})$**
+1. CPU1 junction temperature $T_{jc,cpu1}\le 70^\circ C$
+2. CPU2 junction temperature $T_{jc,cpu2}\le 70^\circ C$
+3. CPU2 heatsink inlet $T_{a2}\le T_{a3}-\epsilon_{T}$
+4. CPU1 heatsink inlet $T_{a1}\le T_{jc,cpu1}$
+5. CPU2 heatsink inlet $T_{a2}\le T_{jc,cpu2}$
+6. GPU card airflow rate $\forall_{air} \ge \forall_{min}=f_{GPU}(T_{a3})$
+7. GPU card inlet temperature $T_{a3}\le 50^\circ C$
+8. Fin height $H_{fin} \le 44.45-H_{b}-H_{cpu}-\epsilon$
+9. Operation point on fan curve $P=f_{fan}(\forall_{a})$
 
 **Reference**
 [^1]: Culham, J.R., and Muzychka, Y.S. “Optimization of Plate Fin Heat Sinks Using Entropy Generation Minimization,” IEEE Trans. Components and Packaging Technologies, Vol. 24, No. 2, pp. 159-165, 2001.
