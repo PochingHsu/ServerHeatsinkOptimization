@@ -1,9 +1,9 @@
 This project is working on optimizing the blade server CPU heatsinks <br/>
-**The Cauchy-Schwarz Inequality** <br/>
-$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
-The thermal resustance of heatsink is calculated as: <br/>
 
-$$R_{hs}=\frac{1}{h\cdot (A_{base}+N_{fin}\cdot \eta_{fin}\cdot A_{fin})}$$ <br/>
+The thermal resustance of heatsink is calculated as: <br/>
+```math
+R_{hs}=\frac{1}{h\cdot (A_{base}+N_{fin}\cdot \eta_{fin}\cdot A_{fin})}
+```
 where <br/>
 Heatsink base area $A_{base}=(N_{fin}-1)\cdot b\cdot L$ <br/>
 Fin area $A_{fin}=2H_{fin}\cdot L$ <br/>
