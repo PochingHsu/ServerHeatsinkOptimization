@@ -51,21 +51,17 @@ where $Re_{D_{h}}=\frac{\rho VD_{h}}{\mu}$, $L^*=\frac{L}{D_{h}Re_{D_{h}}}$
 # Optimization
 Objectives:
 <br/>
-1. Minimizing CPU temperatures: Tcpu1+Tcpu2
-2. Minimizing pressure drop of heatsinks: dP_hs1+dP_hs2
+1. Minimizing CPU temperatures: $T_{CPU1} + T_{CPU2}$
+2. Minimizing pressure drop of heatsinks: $\Delta P_{HS1} + \Delta P_{HS2}$ 
 Design Variables:
-1.
-2.
-3.
+1.CPU1 heatsink:
+a. fin spacing
+b. fin thickness  
+2.CPU2 heatsink
+a. fin spacing
+b. fin thickness
 4. Air flow rate ($\forall_{air}$)
 5. Fin height of two heatsinks ($H_{fin}$)
-Variables
-CPU1 
-Fin spacing b1
-Fin thickness tf,1
-CPU2
-Fin spacing b2
-Fin thickness tf,2
 
 <br/>
 <br/>
