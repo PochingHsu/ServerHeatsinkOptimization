@@ -56,11 +56,11 @@ Objectives:
 Design Variables:
 <br/>
 1.CPU1 heatsink:
-- fin spacing
-* fin thickness  
+  - fin spacing
+  - fin thickness  
 2.CPU2 heatsink
-- fin spacing
-* fin thickness
+  - fin spacing
+  - fin thickness
 4. Air flow rate ($\forall_{air}$)
 5. Fin height of two heatsinks ($H_{fin}$)
 
