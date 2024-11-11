@@ -49,18 +49,22 @@ f=\frac{24-32.527(\frac{b}{H_{fin}})+46.721(\frac{b}{H_{fin}})^2-40.829(\frac{b}
 where $Re_{D_{h}}=\frac{\rho VD_{h}}{\mu}$, $L^*=\frac{L}{D_{h}Re_{D_{h}}}$
 <br/>
 # Optimization
-Objectives:
-<br/>
-1. Minimizing CPU temperatures: $T_{CPU1} + T_{CPU2}$
-2. Minimizing pressure drop of heatsinks: $\Delta P_{HS1} + \Delta P_{HS2}$ 
-<br/>
-Design Variables:
-<br/>
-1. CPU1 heatsink: fin spacing, fin thickness  
-2. CPU2 heatsink: fin spacing, fin thickness
-3. Air flow rate $\forall_{air}$
-4. Fin height of two heatsinks $H_{fin}$
-<br/>
+
+**Objectives:**
+
+1. **Minimizing CPU temperatures:** \( T_{\text{CPU1}} + T_{\text{CPU2}} \)
+2. **Minimizing pressure drop of heatsinks:** \( \Delta P_{\text{HS1}} + \Delta P_{\text{HS2}} \)
+
+**Design Variables:**
+
+1. **CPU1 heatsink:**
+   - Fin spacing
+   - Fin thickness
+2. **CPU2 heatsink:**
+   - Fin spacing
+   - Fin thickness
+3. **Air flow rate:** \( \forall_{\text{air}} \)
+4. **Fin height for both heatsinks:** \( H_{\text{fin}} \)
 <br/>
 **Reference**
 [^1]: Culham, J.R., and Muzychka, Y.S. “Optimization of Plate Fin Heat Sinks Using Entropy Generation Minimization,” IEEE Trans. Components and Packaging Technologies, Vol. 24, No. 2, pp. 159-165, 2001.
