@@ -52,9 +52,14 @@ where $Re_{D_{h}}=\frac{\rho VD_{h}}{\mu}$, $L^*=\frac{L}{D_{h}Re_{D_{h}}}$
 
 **Objectives:**
 
-1. **Minimizing CPU temperatures:** $T_{CPU1} + T_{CPU2}$
-2. **Minimizing pressure drop of heatsinks:** $\Delta P_{HS1} + \Delta P_{HS2}$
-
+1. **Minimizing CPU temperatures:**
+```math
+T_{CPU1} + T_{CPU2}
+```
+3. **Minimizing pressure drop of heatsinks:**
+```math
+\Delta P_{HS1} + \Delta P_{HS2}
+```
 **Design Variables:**
 
 1. **CPU1 heatsink:**
