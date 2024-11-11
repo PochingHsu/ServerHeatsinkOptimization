@@ -1,5 +1,5 @@
 This project is working on optimizing the blade server CPU heatsinks <br/>
-****Heatink modeling**** <br/>
+#Heatink modeling<br/>
 We are using the heat sink model from Culham and Muzychka (2001) [^1] <br/><br/>
 **Thermal resistance of heatsink:** <br/>
 ```math
