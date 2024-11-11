@@ -35,7 +35,9 @@ V = \frac{\forall_{air}}{(N_{fin}-1)\cdot b \cdot H_{fin}}
 ```math
 \Delta P=(K_{c}+4\cdot f_{app}\cdot\frac{L}{D_{h}}+K_{e})\frac{\rho V^{2}}{2}
 ```
-$K_{c}=0.42(1-\sigma^{2})$ and $K_{e}=(1-\sigma^{2})^{2}$ are the pressure loss due to sudden contraction and expansion, respectively, where $\sigma=1-\frac{N\cdot t}{W}$ <br/>
+$K_{c}=0.42(1-\sigma^{2})$ and $K_{e}=(1-\sigma^{2})^{2}$ are the pressure loss due to sudden contraction and expansion, respectively, where $\sigma=1-\frac{N\cdot t}{W}$
+<br/>
+<br/>
 Apparent friction factor:
 ```math
 f_{app}=\frac{\left[ \left(  \frac{3.44}{\sqrt{L^*}}\right)^2+(f\cdot Re_{D_{h}})^2 \right]^{1/2}}{Re_{D_{h}}}
