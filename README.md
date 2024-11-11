@@ -78,10 +78,10 @@ T_{CPU1} + T_{CPU2}
 3. **CPU2 heatsink inlet $T_{a2}\le T_{a3}-\epsilon_{T}$**
 4. **CPU1 heatsink inlet $T_{a1}\le T_{jc,cpu1}$**
 5. **CPU2 heatsink inlet $T_{a2}\le T_{jc,cpu2}$**
-6. **GPU card airflow rate $\forall_{air} \ge \forall_{min}=f(T_{a3})$**
+6. **GPU card airflow rate $\forall_{air} \ge \forall_{min}=f_{GPU}(T_{a3})$**
 7. **GPU card inlet temperature $T_{a3}\le 50^\circ C$**
 8. **Fin height $H_{fin} \le 44.45-H_{b}-H_{cpu}-\epsilon$**
-9. 
+9. **Operation point on fan curve $P=f_{fan}(\forall_{a})$**
 
 **Reference**
 [^1]: Culham, J.R., and Muzychka, Y.S. “Optimization of Plate Fin Heat Sinks Using Entropy Generation Minimization,” IEEE Trans. Components and Packaging Technologies, Vol. 24, No. 2, pp. 159-165, 2001.
