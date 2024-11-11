@@ -17,7 +17,7 @@ fin spacing
 $b=\frac{W-N\cdot t_{fin}}{N-1}$, 
 air velocity between fins 
 $V = \frac{\forall_{air}}{(N_{fin}-1)\cdot b \cdot H_{fin}}$ <br/>
-Dimensionless numbers: <br/>
+**Dimensionless numbers:**
 ```math
 Pr=\frac{\mu\cdot Cp}{k}
 ```
