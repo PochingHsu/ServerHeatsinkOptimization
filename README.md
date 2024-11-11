@@ -1,4 +1,6 @@
 This project is working on optimizing the blade server CPU heatsinks <br/>
+![Sys_pic](https://github.com/user-attachments/assets/1a99af17-b0d7-454d-aade-dd8828da8344)
+<br/>
 # Heatink modeling
 We are using the heat sink model from Culham and Muzychka (2001) [^1] <br/><br/>
 **Thermal resistance of heatsink:** <br/>
