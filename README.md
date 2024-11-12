@@ -58,7 +58,7 @@ where $Re_{D_{h}}=\frac{\rho VD_{h}}{\mu}$, $L^*=\frac{L}{D_{h}Re_{D_{h}}}$
 ```math
 T_{CPU1} + T_{CPU2}
 ```
-3. **Minimizing pressure drop of heatsinks:**
+2. **Minimizing pressure drop of heatsinks:**
 ```math
 \Delta P_{HS1} + \Delta P_{HS2}
 ```
