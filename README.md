@@ -85,5 +85,14 @@ T_{CPU1} + T_{CPU2}
 8. Fin height $H_{fin} \le 44.45-H_{b}-H_{cpu}-\epsilon$
 9. Operation point on fan curve $P=f_{fan}(\forall_{a})$
 
+**Optimization methods:**
+
+1. Single-Objective Optimization:
+   - MATLAB "fmincon" function
+   - Augmented Lagrangian Method (ALM)
+2. Bi-Objective Optimization:
+   - MATLAB "goalattain" function
+   - Weighted function methods
+
 **Reference**
 [^1]: Culham, J.R., and Muzychka, Y.S. “Optimization of Plate Fin Heat Sinks Using Entropy Generation Minimization,” IEEE Trans. Components and Packaging Technologies, Vol. 24, No. 2, pp. 159-165, 2001.
