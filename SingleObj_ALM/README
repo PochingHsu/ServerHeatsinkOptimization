@@ -1,1 +1,6 @@
-
+Run the main file “SingleObj_ALM.m” to get the optimum point of the design.
+The objective function is written as MATLAB function “fminSinObj.m” which will be called when running the main file.
+The non-linear inequality and equality constraints are written as MATLAB function “Nonlcon.m” which will be called when running the main file.
+dP_hs.m and TR_hs.m are where we defined the heatsink model.
+getGeometryProperties.m is for defining geometry and fluid property.
+"ALM.m" and "Lamda.m" are files related to ALM algorithm
