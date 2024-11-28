@@ -94,5 +94,7 @@ T_{CPU1} + T_{CPU2}
    - MATLAB "goalattain" function
    - Weighted function methods
 
+# Results
+
 **Reference**
 [^1]: Culham, J.R., and Muzychka, Y.S. “Optimization of Plate Fin Heat Sinks Using Entropy Generation Minimization,” IEEE Trans. Components and Packaging Technologies, Vol. 24, No. 2, pp. 159-165, 2001.
