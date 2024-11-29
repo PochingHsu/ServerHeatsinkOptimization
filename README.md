@@ -94,7 +94,7 @@ where $Re_{D_{h}}=\frac{\rho VD_{h}}{\mu}$, $L^*=\frac{L}{D_{h}Re_{D_{h}}}$
 
 # Results
 ![Results](https://github.com/user-attachments/assets/62347d9e-fe75-4a90-8a9a-4692eb09dab0)
-| | $Q_1$ [W]     | $Q_2$      | $P_{total}$      | $t_{fin,1}$, $t_{fin,2}$ | $b_{fin,1}$, $b_{fin,2}$      | $H_{fin}$      | $\forall_{air}$     |
+| | $Q_1 [W]$     | $Q_2$      | $P_{total}$      | $t_{fin,1}$, $t_{fin,2}$ | $b_{fin,1}$, $b_{fin,2}$      | $H_{fin}$      | $\forall_{air}$     |
 |-----------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|
 | Single-obj: fmincon | Row 1, Cell 2  | Row 1, Cell 3  | Row 1, Cell 3  | Row 1, Cell 3  | Row 1, Cell 3  | Row 1, Cell 3  |Row 1, Cell 3  |
 | Single-obj: ALM | 158  | 158  | 90  | 0.7, 0.3  | 3.8, 2.8  | 25  |0.0123 |
