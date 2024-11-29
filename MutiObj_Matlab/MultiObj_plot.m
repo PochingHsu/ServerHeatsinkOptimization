@@ -32,9 +32,11 @@ figure
 plot(obj_ga(:,1),obj_ga(:,2),'ko');
 hold on
 plot(obj1_ws,obj2_ws,'bo');
-legend('goalattain','weightsum',FontSize=18);
+plot(-1.583883861048995e+02,89.999956091243690,'r+'); % Single-obj:ALM
+plot(-1.162902677906116e+02,89.972656497771470,'g+'); % Single-obj:fmincon
+legend('Multi-obj: goalattain','Multi-obj: weightsum','Single-obj:ALM','Single-obj:fmincom',FontSize=12);
 xlabel('Negative min(Q1,Q2) [W]',FontSize=18);
 ylabel('Pressure drop [Pa]',FontSize=18);
-ylim([60 450]);
+ylim([60 400]);
 %xlim([-260 -100])
 %saveas(gcf,'MutilObj.png')
