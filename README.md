@@ -80,7 +80,7 @@ T_{CPU1} + T_{CPU2}
 3. GPU card airflow rate $\forall_{air} \ge \forall_{min}=f_{GPU}(T_{a3})$
 4. GPU card inlet temperature $T_{a3}\le 50^\circ C$
 5. Fin height $H_{fin} \le 44.45-H_{b}-H_{cpu}-\epsilon$
-6. heatsink base height $H_{base}\ge 2mm
+6. heatsink base height $H_{base}\ge 2$
 
 **Optimization methods:**
 
