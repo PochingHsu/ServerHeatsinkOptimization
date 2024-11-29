@@ -75,12 +75,12 @@ where $Re_{D_{h}}=\frac{\rho VD_{h}}{\mu}$, $L^*=\frac{L}{D_{h}Re_{D_{h}}}$
 
 **Constraints:**
 
-1. CPU2 heatsink inlet [$\circ C$] $T_{a2}\le T_{a3}-\epsilon_{T}$
-2. CPU2 heatsink inlet $T_{a2}\le T_{jc,cpu}$
-3. GPU card airflow rate $\forall_{air} \ge \forall_{min}=f_{GPU}(T_{a3})$
-4. GPU card inlet temperature $T_{a3}\le 50^\circ C$
-5. Heatsink total height $H_{fin} + H_{base} \le 44.45-H_{mb}-H_{cpu}-\epsilon$
-6. Heatsink base height $H_{base}\ge 2$
+1. CPU2 heatsink inlet [C] $T_{a2}\le T_{a3}-\epsilon_{T}$
+2. CPU2 heatsink inlet [C] $T_{a2}\le T_{jc,cpu}$
+3. GPU card airflow rate [m^3/s] $\forall_{air} \ge \forall_{min}=f_{GPU}(T_{a3})$
+4. GPU card inlet temperature [C] $T_{a3}\le 50$
+5. Heatsink total height [mm] $H_{fin} + H_{base} \le 44.45-H_{mb}-H_{cpu}-\epsilon$
+6. Heatsink base height [mm] $H_{base}\ge 2$
 
 **Optimization methods:**
 
