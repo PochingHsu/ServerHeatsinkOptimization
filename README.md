@@ -58,9 +58,9 @@ where $Re_{D_{h}}=\frac{\rho VD_{h}}{\mu}$, $L^*=\frac{L}{D_{h}Re_{D_{h}}}$
 ```math
 \underset{\overrightarrow{x}}{argmax}\left\{  min[Q_{CPU1}(\overrightarrow{x}), Q_{CPU2}(\overrightarrow{x})]\right\}
 ```
-2. **Minimizing pressure drop of heatsinks:**
+2. **Minimizing pressure drop of CPU heatsinks:**
 ```math
-\Delta P_{HS1} + \Delta P_{HS2}
+\underset{\overrightarrow{x}}{argmin}[  \Delta P_{HS1}(\overrightarrow{x}) + \Delta P_{HS2}(\overrightarrow{x}) ]
 ```
 **Design Variables:**
 
