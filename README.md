@@ -60,7 +60,7 @@ where $Re_{D_{h}}=\frac{\rho VD_{h}}{\mu}$, $L^*=\frac{L}{D_{h}Re_{D_{h}}}$
 ```
 2. **Minimizing pressure drop of CPU heatsinks:**
 ```math
-\underset{\overrightarrow{x}}{argmin}[  \Delta P_{HS1}(\overrightarrow{x}) + \Delta P_{HS2}(\overrightarrow{x}) ]
+\underset{\overrightarrow{x}}{argmin}\left[\Delta P_{HS1}(\overrightarrow{x}) + \Delta P_{HS2}(\overrightarrow{x})\right]
 ```
 **Design Variables:**
 
