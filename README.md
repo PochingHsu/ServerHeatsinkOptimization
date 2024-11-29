@@ -65,7 +65,7 @@ where $Re_{D_{h}}=\frac{\rho VD_{h}}{\mu}$, $L^*=\frac{L}{D_{h}Re_{D_{h}}}$
 **Design Variables:**
 
 1. CPU1 heatsink:
-   - Fin spacing $1\leb_{1}\le3$
+   - Fin spacing $1\le b_{1}\le3$
    - Fin thickness $t_{fin, 1}$
 2. CPU2 heatsink:
    - Fin spacing $b_{2}$
