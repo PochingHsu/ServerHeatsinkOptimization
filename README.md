@@ -81,7 +81,7 @@ where $Re_{D_{h}}=\frac{\rho VD_{h}}{\mu}$, $L^*=\frac{L}{D_{h}Re_{D_{h}}}$
 4. GPU card inlet temperature [C] $T_{a3}\le 50$
 5. Heatsink total height [mm] $H_{fin} + H_{base} \le 44.45-H_{mb}-H_{cpu}-\epsilon$
 6. Heatsink base height [mm] $H_{base}\ge 2$
-7. Total pressure drop of CPU heatsinks [Pa] $dP_{total}\ge 90$ (only used in single-obj optimization)
+7. Total pressure drop of CPU heatsinks [Pa] $dP_{total}\le 90$ (only used in single-obj optimization)
 
 **Optimization methods:**
 
