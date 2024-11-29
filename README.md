@@ -54,9 +54,9 @@ where $Re_{D_{h}}=\frac{\rho VD_{h}}{\mu}$, $L^*=\frac{L}{D_{h}Re_{D_{h}}}$
 
 **Objectives:**
 
-1. **Minimizing CPU temperatures:**
+1. **Maximize the heat removed from least heat removed CPU:**
 ```math
-T_{CPU1} + T_{CPU2}
+min(Q_{CPU1}, Q_{CPU2})
 ```
 2. **Minimizing pressure drop of heatsinks:**
 ```math
