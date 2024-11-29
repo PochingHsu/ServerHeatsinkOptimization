@@ -2,10 +2,12 @@
 Run the main file “MutiObj_goalattain.m” to get the optimum designs on Pareto front by using "fgoalattain".
 The objective function is written as MATLAB function “fminBiObj_goalattain.m” which will be called when running the main file.
 The non-linear inequality and equality constraints are written as MATLAB function “Nonlcon_bi.m” which will be called when running the main file
+
 # Weight sum methods
 Run the main file “MutiObj_weightsum.m” to get the optimum designs on Pareto front by weight sum method.
 The objective function is written as MATLAB function “fminBiObj_weightsum.m” which will be called when running the main file.
 The non-linear inequality and equality constraints are written as MATLAB function “Nonlcon_bi.m” which will be called when running the main file.
+
 # Results comparison and plotting
 Run the main file “MultiObj_plot.m” to plot the pareto front of two different bi-objective optimization methods (weightsum and goalattain).
 The non-linear inequality and equality constraints are written as MATLAB function “Nonlcon_bi.m” which will be called when running the main file.
