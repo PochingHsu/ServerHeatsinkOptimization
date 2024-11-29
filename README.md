@@ -100,12 +100,12 @@ where $Re_{D_{h}}=\frac{\rho VD_{h}}{\mu}$, $L^*=\frac{L}{D_{h}Re_{D_{h}}}$
 | Single-obj: fmincon | 158 | 116| 90 | 0.6, 1.2 | 3.7, 3.6  | 24.9  |0.0111 |
 | Single-obj: ALM | 158  | 158  | 90  | 0.7, 0.3  | 3.8, 2.8  | 25  |0.0123 |
 | Multi-obj: goalattain | 212  | 250 | 250  | 0.2, 1.0  | 2.8, 2.0  | 25 |0.015|
-<br/>
+
 **CRediT authorship contribution statement**
 
 Po-Ching Hsu: Conceptualization, Writing, Software, Methodology, Investigation 
 Alhussain Othman: Writing, Software, Methodology, Investigation
 Dong-Hyun Cho: Writing, Validation
-<br/>
+
 **Reference**
 [^1]: Culham, J.R., and Muzychka, Y.S. “Optimization of Plate Fin Heat Sinks Using Entropy Generation Minimization,” IEEE Trans. Components and Packaging Technologies, Vol. 24, No. 2, pp. 159-165, 2001.
