@@ -54,13 +54,13 @@ where $Re_{D_{h}}=\frac{\rho VD_{h}}{\mu}$, $L^*=\frac{L}{D_{h}Re_{D_{h}}}$
 
 **Objectives:**
 
-1. **Minimizing CPU temperatures:**
+1. **Maximize the heat removed from least heat removed CPU:**
 ```math
-T_{CPU1} + T_{CPU2}
+\underset{\overrightarrow{x}}{argmax}\left\{  min[Q_{CPU1}(\overrightarrow{x}), Q_{CPU2}(\overrightarrow{x})]\right\}
 ```
-2. **Minimizing pressure drop of heatsinks:**
+2. **Minimizing pressure drop of CPU heatsinks:**
 ```math
-\Delta P_{HS1} + \Delta P_{HS2}
+\underset{\overrightarrow{x}}{argmin}\left[\Delta P_{HS1}(\overrightarrow{x}) + \Delta P_{HS2}(\overrightarrow{x})\right]
 ```
 **Design Variables:**
 
@@ -75,15 +75,12 @@ T_{CPU1} + T_{CPU2}
 
 **Constraints:**
 
-1. CPU1 junction temperature $T_{jc,cpu1}\le 70^\circ C$
-2. CPU2 junction temperature $T_{jc,cpu2}\le 70^\circ C$
-3. CPU2 heatsink inlet $T_{a2}\le T_{a3}-\epsilon_{T}$
-4. CPU1 heatsink inlet $T_{a1}\le T_{jc,cpu1}$
-5. CPU2 heatsink inlet $T_{a2}\le T_{jc,cpu2}$
-6. GPU card airflow rate $\forall_{air} \ge \forall_{min}=f_{GPU}(T_{a3})$
-7. GPU card inlet temperature $T_{a3}\le 50^\circ C$
-8. Fin height $H_{fin} \le 44.45-H_{b}-H_{cpu}-\epsilon$
-9. Operation point on fan curve $P=f_{fan}(\forall_{a})$
+1. CPU2 heatsink inlet $T_{a2}\le T_{a3}-\epsilon_{T}$
+2. CPU2 heatsink inlet $T_{a2}\le T_{jc,cpu}$
+3. GPU card airflow rate $\forall_{air} \ge \forall_{min}=f_{GPU}(T_{a3})$
+4. GPU card inlet temperature $T_{a3}\le 50^\circ C$
+5. Heatsink total height $H_{fin} + H_{base} \le 44.45-H_{mb}-H_{cpu}-\epsilon$
+6. Heatsink base height $H_{base}\ge 2$
 
 **Optimization methods:**
 
@@ -92,7 +89,7 @@ T_{CPU1} + T_{CPU2}
    - Augmented Lagrangian Method (ALM)
 2. Bi-Objective Optimization:
    - MATLAB "goalattain" function
-   - Weighted function methods
+   - Weight sum methods
 
 # Results
 
