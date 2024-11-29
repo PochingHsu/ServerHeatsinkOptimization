@@ -93,7 +93,7 @@ where $Re_{D_{h}}=\frac{\rho VD_{h}}{\mu}$, $L^*=\frac{L}{D_{h}Re_{D_{h}}}$
    - Weight sum methods
 
 # Results
-![Results](https://github.com/user-attachments/assets/62347d9e-fe75-4a90-8a9a-4692eb09dab0)
+![Results](https://github.com/user-attachments/assets/447b174a-6ce9-4f21-805e-3bf173ab2775)
 | | $Q_1 [W]$     | $Q_2 [W]$      | $P_{total} [Pa]$      | $t_{fin,1}, t_{fin,2} [mm]$ | $b_{fin,1}, b_{fin,2} [mm]$      | $H_{fin} [mm]$      | $\forall_{air} [m^3/s]$     |
 |-----------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|
 | Single-obj: fmincon | 158 | 116| 90 | 0.6, 1.2 | 3.7, 3.6  | 24.9  |0.0111 |
