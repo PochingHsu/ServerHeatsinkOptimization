@@ -1,14 +1,14 @@
 clc;clear all
 % Parameters
 props = getGeometryProperties();
-LmG=ones(1,18); % 17 inequality constraints
-LmH=ones(1,3); % 3 equality constraints
+LmG=ones(1,19); % 17 inequality constraints
+LmH=ones(1,2); % 3 equality constraints
 rP=1.2;
-gama=1.5;
+gama=1.2;
 rPmax=50;
 tol=1e-6;
 % [tfin1, tfin2, bfin1, bfin2, Hfin, Vair]
-x0=[1.5e-3,1.5e-3,1.5e-3,1.5e-3,0.022, 0.01];
+x0=[5e-4,5e-4,2e-3,2e-3,0.024,0.015];
 do=true; % do-while loop
 while do
        %minX=powellS(ALM, x0, 1e-6); % Self-developped
@@ -40,11 +40,11 @@ t1=minX(1); t2=minX(2); b1=minX(3); b2=minX(4); Hfin=minX(5); Va=minX(6);
 [R_hs1, N1, V1, ~] = TR_hs(props, t1, b1, Hfin, Va);
 % heatsink 2:
 [R_hs2, N2, V2, Hbase] = TR_hs(props, t2, b2, Hfin, Va);
-% CPU temp
-Tcpu1 = props.Q.*(props.R_jc+props.R_TIM+R_hs1)+props.Ta1;
-Ta2 = props.Q./(props.rou_air.*Va.*props.Cp_air)+props.Ta1;
-Tcpu2 = props.Q.*(props.R_jc+props.R_TIM+R_hs2)+Ta2;
-Ta3 = props.Q./(props.rou_air.*Va.*props.Cp_air)+Ta2;
+% CPUs heat dissipated
+Q1 = (props.Tcpu-props.Ta1)./(props.R_jc+props.R_TIM+R_hs1);
+Ta2 = Q1./(props.rou_air.*Va.*props.Cp_air)+props.Ta1;
+Q2 = (props.Tcpu-Ta2)./(props.R_jc+props.R_TIM+R_hs2);
+Ta3 = Q2./(props.rou_air.*Va.*props.Cp_air)+Ta2;
 % Pressure drop:
 dP_hs1 = dP_hs(props, N1, t1, b1, Hfin, V1);
 dP_hs2 = dP_hs(props, N2, t2, b2, Hfin, V2);

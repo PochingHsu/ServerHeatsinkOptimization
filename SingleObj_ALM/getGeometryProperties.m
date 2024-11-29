@@ -6,7 +6,7 @@ function props = getGeometryProperties()
     props.k_TIM = 6; % thermal conductivity of TIM [W/(m*K)]
     props.R_jc = 0.025; % thermal resistance of CPU junction to case [C/W]
     props.R_TIM = props.t_TIM/(props.k_TIM*props.A_cpu); % thermal resistance of TIM [C/W]
-    props.Q = 200; % CPU power [W]
+    props.Tcpu = 70; % CPU max temp [W]
     % Heatsink
     props.L = 0.108; % length of heatsink[m]
     props.W = 0.078; % width of heatsink[m]
