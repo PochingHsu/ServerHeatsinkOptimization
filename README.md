@@ -103,11 +103,11 @@ where $Re_{D_{h}}=\frac{\rho VD_{h}}{\mu}$, $L^*=\frac{L}{D_{h}Re_{D_{h}}}$
 
 **CRediT authorship contribution statement**
 
-Po-Ching Hsu: Conceptualization, Writing, Software, Methodology, Investigation
+**Po-Ching Hsu:** Conceptualization, Writing, Software, Methodology, Investigation
 <br/>
-Alhussain Othman: Writing, Software, Methodology, Investigation
+**Alhussain Othman:** Writing, Software, Methodology, Investigation
 <br/>
-Dong-Hyun Cho: Writing, Validation
+**Dong-Hyun Cho:** Writing, Validation
 
 **Reference**
 [^1]: Culham, J.R., and Muzychka, Y.S. “Optimization of Plate Fin Heat Sinks Using Entropy Generation Minimization,” IEEE Trans. Components and Packaging Technologies, Vol. 24, No. 2, pp. 159-165, 2001.
