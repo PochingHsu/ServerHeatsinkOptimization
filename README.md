@@ -56,7 +56,7 @@ where $Re_{D_{h}}=\frac{\rho VD_{h}}{\mu}$, $L^*=\frac{L}{D_{h}Re_{D_{h}}}$
 
 1. **Maximize the heat removed from least heat removed CPU:**
 ```math
-min(Q_{CPU1}, Q_{CPU2})
+\underset{\overrightarrow{x}}{argmax}\left\{  min[Q_{CPU1}(\overrightarrow{x}), Q_{CPU2}(\overrightarrow{x})]\right\}
 ```
 2. **Minimizing pressure drop of heatsinks:**
 ```math
