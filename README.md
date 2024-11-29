@@ -70,7 +70,7 @@ where $Re_{D_{h}}=\frac{\rho VD_{h}}{\mu}$, $L^*=\frac{L}{D_{h}Re_{D_{h}}}$
 2. CPU2 heatsink:
    - Fin spacing $1\le b_{2}\le3$
    - Fin thickness $0.2\le t_{fin, 2}\le3$
-3. Air flow rate $\forall_{air}$
+3. Air flow rate $0\le \forall_{air}\le0.02$
 4. Fin height for both heatsinks $H_{fin}$
 
 **Constraints:**
